@@ -1,0 +1,3 @@
+# Devops project (GKE)
+## Description
+This project is a simple flask application that prints out get requests key and value pair. It is deployed on GKE using k8s manifest files. Project uses ELK stack for logging and monitoring, Prometheus for metrics and Grafana for visualization. Jenkins is used for CI/CD pipeline for fully automated deployment. There is also a **test_pod.yaml** file in the elk_stack folder that can be used to test the logging and monitoring (if you don't want to use flask app).
